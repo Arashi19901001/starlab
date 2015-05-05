@@ -1,0 +1,47 @@
+body{
+background-image:url(../img/list.jpg);
+overflow:hidden;
+}
+#bird1,#bird2,#bird3,#bird4{
+width:200px;
+height:200px;
+position:fixed;
+}
+div>img{
+filter:alpha(opacity=5);
+-moz-opacity:0.05;
+-khtml-opacity: 0.05;
+opacity: 0.05;
+}
+div>img:hover{
+filter:alpha(opacity=40);
+-moz-opacity:0.4;
+-khtml-opacity: 0.4;
+opacity: 0.4;
+}
+#imgHoverZoom,#woodFormation,#picea,#yak{
+float:right;
+clear:both;
+height:40px;
+width:350px;
+margin-right:-150px;
+line-height:40px;
+background-color:rgba(255,255,255,0.2);
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
+font-family:"Times New Roman",Georgia,Serif;
+font-size:25px;
+padding-left:20px;
+overflow:hidden;
+}
+
+#imgHoverZoom:hover,#woodFormation:hover,#picea:hover,#yak:hover{
+background-color:rgba(0,255,0,0.4);
+}
+#woodFormation,#picea,#yak{
+margin-top:30px;
+}
+#imgHoverZoom{
+margin-top:100px;
+}
