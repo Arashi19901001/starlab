@@ -1,12 +1,21 @@
-.window{
+.projectWindow,.cvWindow{
 background:rgba(255,255,255,0.2);
 border-width:1px 1px 1px 1px;
 border-style:solid;
 border-color:white;
 width:800px;
 height:600px;
+position:absolute;
+}
+.cvWindow{
 margin-top:100px;
 margin-left:200px;
+z-index:9;
+font-family:Times,Georgia,serif;
+}
+.projectWindow{
+margin-top:100px;
+margin-left:400px;
 }
 .windowTop{
 height:40px;

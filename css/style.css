@@ -14,9 +14,21 @@ height:40px;
 bottom:0px;
 box-shadow:0px 0px 1px 0.5px white;
 }
-.miniwindow{
+.projectMini{
 background:rgba(255,255,255,0.2);
 background-image:url(../img/home.png);
+background-repeat:no-repeat;
+background-size:35px 28px;
+background-position:10px 6px;
+width:60px;
+position:absolute;
+bottom:0px;
+height:99%;
+left:60px;
+}
+.cvMini{
+background:rgba(255,255,255,0.2);
+background-image:url(../img/cv.png);
 background-repeat:no-repeat;
 background-size:35px 28px;
 background-position:10px 6px;

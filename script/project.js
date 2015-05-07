@@ -1,15 +1,15 @@
 $(function(){
-var width=$(".window").width()-10;
-var height=$(".window").height()-40;
+var width=$(".projectWindow").width()-10;
+var height=$(".projectWindow").height()-40;
 var birdWidth=Math.floor(width/10);
 var birdHeight=Math.floor(height/10);
-
-$(".windowContent").css({
+$(".projectWindow>.windowContent").css({
 "width":"790px",
 "height":"550px",
 "background-image":"url(img/list.jpg)",
 "background-size":width+"px "+height+"px"
 });
+
 
 $(".bird>img").css({"width":width/10+"px"});
 
