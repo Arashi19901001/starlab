@@ -1,4 +1,4 @@
-.projectWindow,.cvWindow{
+.projectWindow{
 background:rgba(255,255,255,0.2);
 border-width:1px 1px 1px 1px;
 border-style:solid;
@@ -8,14 +8,23 @@ height:600px;
 position:absolute;
 }
 .cvWindow{
-margin-top:100px;
-margin-left:200px;
+background:rgba(255,255,255,0.2);
+border-width:1px 1px 1px 1px;
+border-style:solid;
+border-color:white;
+width:800px;
+height:700px;
+position:absolute;
+}
+.cvWindow{
+bottom:80px;
+left:200px;
 z-index:9;
 font-family:Times,Georgia,serif;
 }
 .projectWindow{
-margin-top:100px;
-margin-left:400px;
+bottom:100px;
+left:400px;
 }
 .windowTop{
 height:40px;
@@ -85,6 +94,7 @@ font-family:"Times New Roman",Georgia,Serif;
 font-size:18px;
 padding-left:15px;
 overflow:hidden;
+cursor:pointer;
 }
 
 #imgHoverZoom:hover,#woodFormation:hover,#picea:hover,#yak:hover{
